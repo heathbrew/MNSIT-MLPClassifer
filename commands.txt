@@ -1,0 +1,26 @@
+Compress-Archive -Path "Dataset\Unzipped data" -DestinationPath "Dataset\Zipped data\Mnist.zip"
+
+
+git reset
+
+git config --global http.postBuffer 524288000   
+
+
+Remove Large Files: Use the git rm --cached command to remove the files from the staging area and index while keeping the local copies. For example:
+
+sh
+Copy code
+git rm --cached Dataset/Modeltraining/X_test.csv
+git rm --cached Dataset/Modeltraining/X_train.csv
+git rm --cached Dataset/Unzipped data/mnist_784.arff
+
+git lfs install
+git lfs track "Dataset/Modeltraining/X_test.csv"
+git lfs track "Dataset/Modeltraining/X_train.csv"
+git lfs track "Dataset/Unzipped data/mnist_784.arff"
+
+To remove everything from the Git cache (staging area), you can use the git rm command with the --cached option. This command will unstage and remove paths only from the index (staging area) while leaving the files in your working directory untouched. If you want to remove all tracked files from the staging area but keep them in your filesystem, you can use the following command:
+
+sh
+Copy code
+git rm -r --cached .

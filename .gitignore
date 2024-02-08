@@ -1,0 +1,13 @@
+venv/
+Research/.ipynb_checkpoints/
+Dataset/.ipynb_checkpoints/
+Dataset/Unzipped data/mnist_784.arff
+Dataset/Unzipped data/description.json
+Dataset/Modeltraining/X_test.csv
+Dataset/Modeltraining/X_train.csv
+Dataset/Modeltraining/y_test.csv
+Dataset/Modeltraining/y_train.csv
+Model/mlp_mnist_model.pkl
+Model/scaler.pkl
+Dataset/Zipped data/Mnist.zip
+Dataset/Unzipped data/mnist_784.arff

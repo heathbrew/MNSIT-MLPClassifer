@@ -1,0 +1,2 @@
+Input data shape: (70000, 784)
+Target data shape: (70000,)
