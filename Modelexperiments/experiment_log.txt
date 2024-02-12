@@ -1,0 +1,54 @@
+Starting experiments...
+Loaded data...
+Scaler saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\scaler.pkl
+Label Encoding Mapping: {0.0: 0, 1.0: 1, 2.0: 2, 3.0: 3, 4.0: 4, 5.0: 5, 6.0: 6, 7.0: 7, 8.0: 8, 9.0: 9}
+Unique labels after encoding: [0 1 2 3 4 5 6 7 8 9]
+Running experiment with Nodes: 4, Layers: 1, Epochs: 10
+NoneNodes: 4, Layers: 1, Epochs: 10, Test Accuracy: 0.8295580744743347, F1 Score: 0.19566017389297485, Training Time: 74.35525441169739s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_4_layers_1_epochs_10.keras
+Running experiment with Nodes: 32, Layers: 1, Epochs: 10
+NoneNodes: 32, Layers: 1, Epochs: 10, Test Accuracy: 0.9542214274406433, F1 Score: 0.19566017389297485, Training Time: 71.88862752914429s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_32_layers_1_epochs_10.keras
+Running experiment with Nodes: 64, Layers: 1, Epochs: 10
+NoneNodes: 64, Layers: 1, Epochs: 10, Test Accuracy: 0.9616664052009583, F1 Score: 0.19566017389297485, Training Time: 75.31173324584961s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_1_epochs_10.keras
+Running experiment with Nodes: 128, Layers: 1, Epochs: 10
+NoneNodes: 128, Layers: 1, Epochs: 10, Test Accuracy: 0.9691113829612732, F1 Score: 0.19566017389297485, Training Time: 88.62630987167358s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_128_layers_1_epochs_10.keras
+Running experiment with Nodes: 512, Layers: 1, Epochs: 10
+NoneNodes: 512, Layers: 1, Epochs: 10, Test Accuracy: 0.9680817127227783, F1 Score: 0.19566017389297485, Training Time: 125.9506003856659s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_512_layers_1_epochs_10.keras
+Running experiment with Nodes: 2056, Layers: 1, Epochs: 10
+NoneNodes: 2056, Layers: 1, Epochs: 10, Test Accuracy: 0.9669728875160217, F1 Score: 0.19566017389297485, Training Time: 185.04477190971375s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_2056_layers_1_epochs_10.keras
+Running experiment with Nodes: 64, Layers: 4, Epochs: 10
+NoneNodes: 64, Layers: 4, Epochs: 10, Test Accuracy: 0.9645176529884338, F1 Score: 0.19566017389297485, Training Time: 87.61051201820374s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_4_epochs_10.keras
+Running experiment with Nodes: 64, Layers: 4, Epochs: 30
+NoneNodes: 64, Layers: 4, Epochs: 30, Test Accuracy: 0.9706953763961792, F1 Score: 0.19566017389297485, Training Time: 255.99460887908936s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_4_epochs_30.keras
+Running experiment with Nodes: 64, Layers: 5, Epochs: 10
+NoneNodes: 64, Layers: 5, Epochs: 10, Test Accuracy: 0.9663392901420593, F1 Score: 0.19566017389297485, Training Time: 89.38357043266296s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_5_epochs_10.keras
+Running experiment with Nodes: 64, Layers: 5, Epochs: 30
+NoneNodes: 64, Layers: 5, Epochs: 30, Test Accuracy: 0.9683193564414978, F1 Score: 0.19566017389297485, Training Time: 266.10791873931885s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_5_epochs_30.keras
+Running experiment with Nodes: 64, Layers: 6, Epochs: 10
+NoneNodes: 64, Layers: 6, Epochs: 10, Test Accuracy: 0.9683193564414978, F1 Score: 0.19566017389297485, Training Time: 91.98444747924805s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_6_epochs_10.keras
+Running experiment with Nodes: 64, Layers: 6, Epochs: 30
+NoneNodes: 64, Layers: 6, Epochs: 30, Test Accuracy: 0.9676856994628906, F1 Score: 0.19566017389297485, Training Time: 270.91913962364197s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_6_epochs_30.keras
+Running experiment with Nodes: 64, Layers: 8, Epochs: 10
+NoneNodes: 64, Layers: 8, Epochs: 10, Test Accuracy: 0.9622207880020142, F1 Score: 0.19566017389297485, Training Time: 99.83066415786743s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_8_epochs_10.keras
+Running experiment with Nodes: 64, Layers: 8, Epochs: 30
+NoneNodes: 64, Layers: 8, Epochs: 30, Test Accuracy: 0.9654681086540222, F1 Score: 0.19566017389297485, Training Time: 301.11518120765686s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_8_epochs_30.keras
+Running experiment with Nodes: 64, Layers: 16, Epochs: 10
+NoneNodes: 64, Layers: 16, Epochs: 10, Test Accuracy: 0.9584983587265015, F1 Score: 0.19566017389297485, Training Time: 123.66581177711487s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_16_epochs_10.keras
+Running experiment with Nodes: 64, Layers: 16, Epochs: 30
+NoneNodes: 64, Layers: 16, Epochs: 30, Test Accuracy: 0.9651512503623962, F1 Score: 0.19566017389297485, Training Time: 369.9495384693146s
+Model saved to D:\Desktop\Deep Learning\Lab 3\Main MNSIT-MLPClassifer\ModelExperiments\model_nodes_64_layers_16_epochs_30.keras
+Experiments completed.
