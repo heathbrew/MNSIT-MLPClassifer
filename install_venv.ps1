@@ -15,5 +15,5 @@ pip install pandas
 pip install pyarrow
 # for xlsx conversion
 pip install openpyxl
-
-
+pip install tensorflow
+pip install tensorflow-addons
