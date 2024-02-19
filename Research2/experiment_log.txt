@@ -1,0 +1,267 @@
+Starting experiments...
+Loaded data...
+Running experiment with Filters: (32, 64, 64), Kernel Size: (3, 3), Activation: relu, Epochs: 10
+Model: "sequential_5"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_12 (Conv2D)          (None, 28, 28, 32)        320       
+                                                                 
+ max_pooling2d_11 (MaxPooli  (None, 14, 14, 32)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_13 (Conv2D)          (None, 14, 14, 64)        18496     
+                                                                 
+ max_pooling2d_12 (MaxPooli  (None, 7, 7, 64)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_14 (Conv2D)          (None, 7, 7, 64)          36928     
+                                                                 
+ max_pooling2d_13 (MaxPooli  (None, 3, 3, 64)          0         
+ ng2D)                                                           
+                                                                 
+ flatten_3 (Flatten)         (None, 576)               0         
+                                                                 
+ dense_6 (Dense)             (None, 64)                36928     
+                                                                 
+ dense_7 (Dense)             (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 93322 (364.54 KB)
+Trainable params: 93322 (364.54 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Filters: (32, 64, 64), Kernel Size: (3, 3), Activation: relu, Epochs: 10, Test Accuracy: 0.11016666889190674, Training Time: 62.91858911514282s
+Model saved to D:\Desktop\Deep Learning\Lab 4\Main MNSIT-MLPClassifer\ModelExperiments\model_filters_32_64_64_kernel_3_activation_relu_epochs_10.h5
+Running experiment with Filters: (32, 64, 64), Kernel Size: (3, 3), Activation: tanh, Epochs: 10
+Model: "sequential_6"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_15 (Conv2D)          (None, 28, 28, 32)        320       
+                                                                 
+ max_pooling2d_14 (MaxPooli  (None, 14, 14, 32)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_16 (Conv2D)          (None, 14, 14, 64)        18496     
+                                                                 
+ max_pooling2d_15 (MaxPooli  (None, 7, 7, 64)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_17 (Conv2D)          (None, 7, 7, 64)          36928     
+                                                                 
+ max_pooling2d_16 (MaxPooli  (None, 3, 3, 64)          0         
+ ng2D)                                                           
+                                                                 
+ flatten_4 (Flatten)         (None, 576)               0         
+                                                                 
+ dense_8 (Dense)             (None, 64)                36928     
+                                                                 
+ dense_9 (Dense)             (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 93322 (364.54 KB)
+Trainable params: 93322 (364.54 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Filters: (32, 64, 64), Kernel Size: (3, 3), Activation: tanh, Epochs: 10, Test Accuracy: 0.9862499833106995, Training Time: 61.333725690841675s
+Model saved to D:\Desktop\Deep Learning\Lab 4\Main MNSIT-MLPClassifer\ModelExperiments\model_filters_32_64_64_kernel_3_activation_tanh_epochs_10.h5
+Running experiment with Filters: (32, 64, 64), Kernel Size: (5, 5), Activation: relu, Epochs: 10
+Model: "sequential_7"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_18 (Conv2D)          (None, 28, 28, 32)        832       
+                                                                 
+ max_pooling2d_17 (MaxPooli  (None, 14, 14, 32)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_19 (Conv2D)          (None, 14, 14, 64)        51264     
+                                                                 
+ max_pooling2d_18 (MaxPooli  (None, 7, 7, 64)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_20 (Conv2D)          (None, 7, 7, 64)          102464    
+                                                                 
+ max_pooling2d_19 (MaxPooli  (None, 3, 3, 64)          0         
+ ng2D)                                                           
+                                                                 
+ flatten_5 (Flatten)         (None, 576)               0         
+                                                                 
+ dense_10 (Dense)            (None, 64)                36928     
+                                                                 
+ dense_11 (Dense)            (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 192138 (750.54 KB)
+Trainable params: 192138 (750.54 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Filters: (32, 64, 64), Kernel Size: (5, 5), Activation: relu, Epochs: 10, Test Accuracy: 0.9772499799728394, Training Time: 87.18041944503784s
+Model saved to D:\Desktop\Deep Learning\Lab 4\Main MNSIT-MLPClassifer\ModelExperiments\model_filters_32_64_64_kernel_5_activation_relu_epochs_10.h5
+Running experiment with Filters: (32, 64, 64), Kernel Size: (5, 5), Activation: tanh, Epochs: 10
+Model: "sequential_8"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_21 (Conv2D)          (None, 28, 28, 32)        832       
+                                                                 
+ max_pooling2d_20 (MaxPooli  (None, 14, 14, 32)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_22 (Conv2D)          (None, 14, 14, 64)        51264     
+                                                                 
+ max_pooling2d_21 (MaxPooli  (None, 7, 7, 64)          0         
+ ng2D)                                                           
+                                                                 
+ conv2d_23 (Conv2D)          (None, 7, 7, 64)          102464    
+                                                                 
+ max_pooling2d_22 (MaxPooli  (None, 3, 3, 64)          0         
+ ng2D)                                                           
+                                                                 
+ flatten_6 (Flatten)         (None, 576)               0         
+                                                                 
+ dense_12 (Dense)            (None, 64)                36928     
+                                                                 
+ dense_13 (Dense)            (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 192138 (750.54 KB)
+Trainable params: 192138 (750.54 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Filters: (32, 64, 64), Kernel Size: (5, 5), Activation: tanh, Epochs: 10, Test Accuracy: 0.9864166378974915, Training Time: 90.1766197681427s
+Model saved to D:\Desktop\Deep Learning\Lab 4\Main MNSIT-MLPClassifer\ModelExperiments\model_filters_32_64_64_kernel_5_activation_tanh_epochs_10.h5
+Running experiment with Filters: (64, 128, 128), Kernel Size: (3, 3), Activation: relu, Epochs: 10
+Model: "sequential_9"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_24 (Conv2D)          (None, 28, 28, 64)        640       
+                                                                 
+ max_pooling2d_23 (MaxPooli  (None, 14, 14, 64)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_25 (Conv2D)          (None, 14, 14, 128)       73856     
+                                                                 
+ max_pooling2d_24 (MaxPooli  (None, 7, 7, 128)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_26 (Conv2D)          (None, 7, 7, 128)         147584    
+                                                                 
+ max_pooling2d_25 (MaxPooli  (None, 3, 3, 128)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_7 (Flatten)         (None, 1152)              0         
+                                                                 
+ dense_14 (Dense)            (None, 64)                73792     
+                                                                 
+ dense_15 (Dense)            (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 296522 (1.13 MB)
+Trainable params: 296522 (1.13 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Filters: (64, 128, 128), Kernel Size: (3, 3), Activation: relu, Epochs: 10, Test Accuracy: 0.9674999713897705, Training Time: 117.62400078773499s
+Model saved to D:\Desktop\Deep Learning\Lab 4\Main MNSIT-MLPClassifer\ModelExperiments\model_filters_64_128_128_kernel_3_activation_relu_epochs_10.h5
+Running experiment with Filters: (64, 128, 128), Kernel Size: (3, 3), Activation: tanh, Epochs: 10
+Model: "sequential_10"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_27 (Conv2D)          (None, 28, 28, 64)        640       
+                                                                 
+ max_pooling2d_26 (MaxPooli  (None, 14, 14, 64)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_28 (Conv2D)          (None, 14, 14, 128)       73856     
+                                                                 
+ max_pooling2d_27 (MaxPooli  (None, 7, 7, 128)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_29 (Conv2D)          (None, 7, 7, 128)         147584    
+                                                                 
+ max_pooling2d_28 (MaxPooli  (None, 3, 3, 128)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_8 (Flatten)         (None, 1152)              0         
+                                                                 
+ dense_16 (Dense)            (None, 64)                73792     
+                                                                 
+ dense_17 (Dense)            (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 296522 (1.13 MB)
+Trainable params: 296522 (1.13 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Filters: (64, 128, 128), Kernel Size: (3, 3), Activation: tanh, Epochs: 10, Test Accuracy: 0.9865833520889282, Training Time: 117.72874402999878s
+Model saved to D:\Desktop\Deep Learning\Lab 4\Main MNSIT-MLPClassifer\ModelExperiments\model_filters_64_128_128_kernel_3_activation_tanh_epochs_10.h5
+Running experiment with Filters: (64, 128, 128), Kernel Size: (5, 5), Activation: relu, Epochs: 10
+Model: "sequential_11"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_30 (Conv2D)          (None, 28, 28, 64)        1664      
+                                                                 
+ max_pooling2d_29 (MaxPooli  (None, 14, 14, 64)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_31 (Conv2D)          (None, 14, 14, 128)       204928    
+                                                                 
+ max_pooling2d_30 (MaxPooli  (None, 7, 7, 128)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_32 (Conv2D)          (None, 7, 7, 128)         409728    
+                                                                 
+ max_pooling2d_31 (MaxPooli  (None, 3, 3, 128)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_9 (Flatten)         (None, 1152)              0         
+                                                                 
+ dense_18 (Dense)            (None, 64)                73792     
+                                                                 
+ dense_19 (Dense)            (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 690762 (2.64 MB)
+Trainable params: 690762 (2.64 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Filters: (64, 128, 128), Kernel Size: (5, 5), Activation: relu, Epochs: 10, Test Accuracy: 0.11016666889190674, Training Time: 243.41449546813965s
+Model saved to D:\Desktop\Deep Learning\Lab 4\Main MNSIT-MLPClassifer\ModelExperiments\model_filters_64_128_128_kernel_5_activation_relu_epochs_10.h5
+Running experiment with Filters: (64, 128, 128), Kernel Size: (5, 5), Activation: tanh, Epochs: 10
+Model: "sequential_12"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_33 (Conv2D)          (None, 28, 28, 64)        1664      
+                                                                 
+ max_pooling2d_32 (MaxPooli  (None, 14, 14, 64)        0         
+ ng2D)                                                           
+                                                                 
+ conv2d_34 (Conv2D)          (None, 14, 14, 128)       204928    
+                                                                 
+ max_pooling2d_33 (MaxPooli  (None, 7, 7, 128)         0         
+ ng2D)                                                           
+                                                                 
+ conv2d_35 (Conv2D)          (None, 7, 7, 128)         409728    
+                                                                 
+ max_pooling2d_34 (MaxPooli  (None, 3, 3, 128)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_10 (Flatten)        (None, 1152)              0         
+                                                                 
+ dense_20 (Dense)            (None, 64)                73792     
+                                                                 
+ dense_21 (Dense)            (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 690762 (2.64 MB)
+Trainable params: 690762 (2.64 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Filters: (64, 128, 128), Kernel Size: (5, 5), Activation: tanh, Epochs: 10, Test Accuracy: 0.987666666507721, Training Time: 359.9742214679718s
+Model saved to D:\Desktop\Deep Learning\Lab 4\Main MNSIT-MLPClassifer\ModelExperiments\model_filters_64_128_128_kernel_5_activation_tanh_epochs_10.h5
+Experiments completed.
